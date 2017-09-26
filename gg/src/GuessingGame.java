@@ -1,3 +1,8 @@
+/*
+ * Author: Amir Hasan
+ * Date: 9-26-17
+ * Description: Guessing game for numbers 1 to 10.
+*/
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class GuessingGame
