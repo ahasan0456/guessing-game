@@ -40,3 +40,5 @@ public class GuessingGame
 		System.out.println("You guessed it right!");
 	}
 }
+
+//viewed by Kaitlyn
