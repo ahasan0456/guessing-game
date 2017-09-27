@@ -1,6 +1,6 @@
 /*
  * Author: Amir Hasan
- * Date: 9-26-17
+ * Date: 9-27-17
  * Description: Guessing game for numbers 1 to 10.
 */
 import java.util.InputMismatchException;
@@ -37,6 +37,7 @@ public class GuessingGame
 				System.out.println("That is not the right number. Try again.");
 			}
 		}
+		input.close();
 		System.out.println("You guessed it right!");
 	}
 }
