@@ -22,9 +22,9 @@ public class GuessingGame
 			{
 				try
 				{
-					Scanner thing=new Scanner(System.in);
+					input.reset();
 					System.out.println("Enter your guess.");
-					playerGuess=thing.nextInt();
+					playerGuess=input.nextInt();
 					good=true;
 				}
 				catch(InputMismatchException e)
